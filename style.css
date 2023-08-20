@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nnavbar{
+    background-color: #0065c3;
+    
+}
+#logo{
+    height: 60px;
+    margin-left: 20px;
+  animation: spin1 0.5s initial linear;
+  -webkit-animation: spin1 0.5s   linear;
+
+}
+.imag{
+    margin-top: -80px;
+    width: 1400px;
+    height: 900px;
+  }
+
+ .video1{
+    margin-left: 270px;
+    margin-top: -160px;
+    
+}
+
+@keyframes spin1 {
+    0% {
+    -moz-transform:rotate(320deg);
+    -webkit-transform:rotate(320deg);
+    -o-transform:rotate(320deg);
+    -ms-transform:rotate(320deg);
+    }
+    100% {
+    -moz-transform:rotate(680deg);
+    -webkit-transform:rotate(680deg);
+    -o-transform:rotate(680deg);
+    -ms-transform:rotate(680deg); 
+    }
+  }
+  @-webkit-keyframes spin1 {
+    0% {
+    -moz-transform:rotate(320deg);
+    -webkit-transform:rotate(320deg);
+    -o-transform:rotate(320deg);
+    -ms-transform:rotate(320deg);
+    }
+    100% {
+    -moz-transform:rotate(680deg);
+    -webkit-transform:rotate(680deg);
+    -o-transform:rotate(680deg);
+    -ms-transform:rotate(680deg); 
+    }
+  }
+  @keyframes spin2 {
+    0% {
+    -moz-transform:rotate(80deg);
+    -webkit-transform:rotate(80deg);
+    -o-transform:rotate(80deg);
+    -ms-transform:rotate(80deg);
+    }
+    100% {
+    -moz-transform:rotate(440deg);
+    -webkit-transform:rotate(440deg);
+    -o-transform:rotate(440deg);
+    -ms-transform:rotate(440deg); 
+    }
+  }
+  @-webkit-keyframes spin2 {
+    0% {
+    -moz-transform:rotate(80deg);
+    -webkit-transform:rotate(80deg);
+    -o-transform:rotate(80deg);
+    -ms-transform:rotate(80deg);
+    }
+    100% {
+    -moz-transform:rotate(440deg);
+    -webkit-transform:rotate(440deg);
+    -o-transform:rotate(440deg);
+    -ms-transform:rotate(440deg); 
+    }
+  }
+  @keyframes spin3 {
+    0% {
+    -moz-transform:rotate(200deg);
+    -webkit-transform:rotate(200deg);
+    -o-transform:rotate(200deg);
+    -ms-transform:rotate(200deg);
+    }
+    100% {
+    -moz-transform:rotate(560deg);
+    -webkit-transform:rotate(560deg);
+    -o-transform:rotate(560deg);
+    -ms-transform:rotate(560deg); 
+    }
+  }
+  @-webkit-keyframes spin3 {
+    0% {
+    -moz-transform:rotate(200deg);
+    -webkit-transform:rotate(200deg);
+    -o-transform:rotate(200deg);
+    -ms-transform:rotate(200deg);
+    }
+    100% {
+    -moz-transform:rotate(560deg);
+    -webkit-transform:rotate(560deg);
+    -o-transform:rotate(560deg);
+    -ms-transform:rotate(560deg); 
+    }
+  }
+
+  .music {
+    width: 1600px;
+    height: 750px;
+  }
+  .zero {
+    width: 1600px;
+    height: 700px;
+  }
+  .mango {
+    width: 1600px;
+    height: 800px;
+  }
+
+  .all {
+    width: 1600px;
+    height: 700px;
+  }
+  .nitro {
+    width: 1600px;
+    height: 700px;
+  }
+
+  .preload{
+    width: 1600px;
+    height: 900px;
+  }
+
+
+.that {
+  width: 1600px;
+  height: 800px;
+}
+
+
+.you {
+  width: 1600px;
+  height: 450px;
+}
+
+
+.for{
+  width: 1500px;
+  height: 300px;
+  
+}
+  
+  
+#haha{
+    list-style-type: none;
+}
+#btn{
+    list-style-type: none;
+}
+#btnn{
+    font-weight: bolder;
+    padding: 5px 25px;
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: #0065c3;
+    margin-right: 20px;
+}
+
+#btnn:hover{
+    color:#0065c3;
+    background-color: #fff;
+}
+#navbarDropdown{
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: AvinerBold;
+    src: url("https://www.pepsi.com/en-us/assets/fonts/AvenirNextLTPro-Bold.otf") format('opentype');
+    font-weight: 500;
+}
+
+.pepsi-nitro-container {
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Tablet_Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pepsi-nitro__flex {
+    display: flex;
+    flex-direction: column;
+    padding: 6vw 0;
+}
+
+.pepsi-nitro__flex-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pepsi-nitro__flex-child:first-of-type img {
+    width: 46vw;
+}
+
+.pepsi-nitro__flex-child:last-of-type img {
+    width: 57vw;
+}
+.pepsi-nitro__flex-child button {
+    margin: 0 0 6vw 0px;
+}
+.pepsi-nitro__flex-child h1 {
+    font-size: 5vw;
+    line-height: 0;
+    padding: 8vw 0;
+    font-family: "AvinerBold";
+}
+
+@media screen and (min-width: 390px) {
+    .pepsi-nitro__flex {
+    padding: 9vw 0;
+    }
+
+    .pepsi-nitro__flex-child h1 {
+        font-size: 6vw;
+        padding: 9vw 0;
+    }
+
+    .pepsi-nitro__flex-child button {
+        margin: 0 0 10vw 0px;
+    }
+
+    .pepsi-nitro__flex-child:first-of-type img {
+        width: 53vw;
+    }
+
+    .pepsi-nitro__flex-child:last-of-type img {
+        width: 73vw;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+                  .pepsi-nitro-container {
+                     background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png);
+                     background-position: 50% center;
+                  }
+
+                  .pepsi-nitro__flex {
+                     flex-direction: row;
+                     padding: 7vw 0 4vw 0;
+                  }
+
+                  .pepsi-nitro__flex-child {
+                     justify-content: center;
+                     flex: 50%;
+                     /* border:1px solid black; */
+                  }
+
+                  .pepsi-nitro__flex-child:last-of-type img {
+                     width: 79%;
+                  }
+
+                  .pepsi-nitro__flex-child h1 {
+                     font-size: 23px;
+                     line-height: 29px;
+                     padding: 2vw 0;
+                     text-align: center;
+                  }
+
+                  .pepsi-nitro__flex-child button {
+                     margin: 0;
+        }
+
+                  .pepsi-nitro__flex-child:first-of-type img {
+                     /* width: 79%; */
+                     width: 276px;
+                  }
+
+                  .pepsi-nitro__flex-child:last-of-type img {
+                     /* width: 79%; */
+                     width: 282px;
+                  }
+
+                  .pepsi-nitro__flex-child:first-of-type {
+                     padding: 0 0 0 3vw;
+                  }
+
+                  .pepsi-nitro__flex-child:last-of-type {
+                     order: -1;
+                     align-items: flex-end;
+                     display: flex;
+                  }
+               }
+
+               @media screen and (min-width: 1024px) {
+
+                  .pepsi-nitro__flex-child h1 {
+                     font-size: 31px;
+                     line-height: 38px;
+                     padding: 2vw 0;
+                  }
+
+                  .pepsi-nitro__flex-child:first-of-type img {
+                     /* width: 79%; */
+                     width: 362px;
+                  }
+
+                  .pepsi-nitro__flex-child:last-of-type img {
+                     /* width: 79%; */
+                     width: 371px;
+                  }
+
+                  .pepsi-nitro__flex-child:first-of-type {
+                     padding: 0 0 0 2vw;
+                  }
+
+                  @media screen and (min-width: 1024px) {
+
+                     .pepsi-nitro__flex {
+                        padding: 3vw 0 2vw 0;
+                     }
+
+                     .pepsi-nitro__flex-child h1 {
+                        font-size: 31px;
+                        line-height: 37px;
+                        padding: 2vw 0;
+                     }
+
+                     .pepsi-nitro__flex-child:first-of-type img {
+                        /* width: 79%; */
+                        width: 362px;
+                     }
+
+                     .pepsi-nitro__flex-child:last-of-type img {
+                        /* width: 79%; */
+                        width: 371px;
+                     }
+
+                     .pepsi-nitro__flex-child:first-of-type {
+                        padding: 0 0 0 3vw;
+                     }
+
+                  }
+
+                  @media screen and (min-width: 1366px) {
+                     .pepsi-nitro__flex-child:last-of-type img {
+                        width: 436px;
+                     }
+                     
+
+    }
+
+    @media screen and (min-width: 1920px) {
+
+        .pepsi-nitro__flex {
+            padding: 2vw 0 1vw 0;
+        }
+
+        .pepsi-nitro__flex-child h1 {
+            font-size: 51px;
+            line-height: 62px;
+            padding: 2vw 0;
+        }
+
+        .pepsi-nitro__flex-child:first-of-type img {
+            width: 571px;
+        }
+
+        .pepsi-nitro__flex-child:last-of-type img {
+            width: 586px;
+        }
+
+        .pepsi-nitro__flex-child:first-of-type {
+            padding: 0 0 0 2vw;
+        }
+
+        .pepsi-nitro__flex-child:last-of-type {
+            padding: 0 2vw 0 0;
+        }
+
+    }
+
+    @media screen and (min-width: 2560px) {
+
+        .pepsi-nitro__flex-child:first-of-type {
+            padding: 0 0 0 8vw;
+        }
+
+        .pepsi-nitro__flex-child:first-of-type img {
+            width: 571px;
+        }
+
+        .pepsi-nitro__flex-child:last-of-type img {
+            width: 563px;
+        }
+
+    }
+}
+
+footer{
+    background-color:#0065c3;
+}
+.image{
+    width: 110px;
+  animation: spin1 0.5s initial linear;
+  -webkit-animation: spin1 0.5s  linear;
+}
+               
+.footer-top {
+    padding-top: 80px;
+    padding-bottom: 30px;
+ }
+ 
+ .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+
+ 
+ 
+ footer .footer-links a {
+    display: block;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+ }
+
+footer .footer-links a:hover{
+    color: rgb(194, 194, 253);
+}
